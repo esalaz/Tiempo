@@ -3,7 +3,7 @@
     <h1>Posts</h1>
     This file will list all the posts.
 
-    <div v-for="post in posts">
+    <div v-for="posts in posts">
       <p>
         <span><b>{{ posts.title }}</b></span><br />
         <span>{{ posts.description }}</span>
